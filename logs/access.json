@@ -1,0 +1,65 @@
+{"timestamp":"2025-11-21T14:17:41.465Z","user":"Guest","method":"POST","url":"/api/pasien/getNorm","ip":"::1","status":200,"responseTime":109}
+{"timestamp":"2025-11-21T14:17:46.500Z","user":"Guest","method":"GET","url":"/api/logs","ip":"::1","status":200,"responseTime":4}
+{"timestamp":"2025-11-21T14:17:47.786Z","user":"Guest","method":"GET","url":"/api/logs","ip":"::1","status":200,"responseTime":4}
+{"timestamp":"2025-11-21T14:17:48.852Z","user":"Guest","method":"GET","url":"/api/logs","ip":"::1","status":200,"responseTime":4}
+{"timestamp":"2025-11-21T14:17:48.997Z","user":"Guest","method":"GET","url":"/api/logs","ip":"::1","status":200,"responseTime":2}
+{"timestamp":"2025-11-21T14:17:49.569Z","user":"Guest","method":"GET","url":"/api/logs","ip":"::1","status":200,"responseTime":4}
+{"timestamp":"2025-11-21T14:17:50.332Z","user":"Guest","method":"GET","url":"/api/logs","ip":"::1","status":200,"responseTime":3}
+{"timestamp":"2025-11-21T14:18:10.610Z","user":"Guest","method":"POST","url":"/api/login","ip":"::1","status":200,"responseTime":115}
+{"timestamp":"2025-11-21T14:18:13.639Z","user":"Guest","method":"POST","url":"/api/login","ip":"::1","status":200,"responseTime":51}
+{"timestamp":"2025-11-21T14:18:41.654Z","user":"Guest","method":"POST","url":"/api/pasien/getNorm","ip":"::1","status":200,"responseTime":61}
+{"timestamp":"2025-11-21T14:18:45.453Z","user":"Guest","method":"GET","url":"/api/logs","ip":"::1","status":200,"responseTime":3}
+{"timestamp":"2025-11-21T14:23:13.499Z","user":"Guest","method":"POST","url":"/api/login","ip":"::1","status":200,"responseTime":105}
+{"timestamp":"2025-11-21T14:23:29.522Z","user":"Guest","method":"POST","url":"/api/pasien/getNorm","ip":"::1","status":200,"responseTime":62}
+{"timestamp":"2025-11-21T14:23:35.252Z","user":"Guest","method":"GET","url":"/api/logs","ip":"::1","status":200,"responseTime":4}
+{"timestamp":"2025-11-21T14:25:38.419Z","user":"Guest","method":"GET","url":"/api/logs","ip":"::1","status":200,"responseTime":3}
+{"timestamp":"2025-11-21T14:25:42.173Z","user":"Guest","method":"POST","url":"/api/login","ip":"::1","status":200,"responseTime":127}
+{"timestamp":"2025-11-21T14:27:12.677Z","user":"Guest","method":"POST","url":"/api/login","ip":"::1","status":200,"responseTime":65}
+{"timestamp":"2025-11-21T14:27:32.421Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/pasien/getNorm","ip":"::1","status":200,"responseTime":50}
+{"timestamp":"2025-11-21T14:29:11.310Z","user":"Guest","method":"GET","url":"/api/logs","ip":"::1","status":200,"responseTime":5}
+{"timestamp":"2025-11-21T14:30:02.158Z","user":"Guest","method":"GET","url":"/api/logs","ip":"::1","status":200,"responseTime":3}
+{"timestamp":"2025-11-21T14:32:49.127Z","user":"Guest","method":"GET","url":"/api/logs","ip":"::1","status":401,"responseTime":3}
+{"timestamp":"2025-11-21T14:33:02.776Z","user":"Guest","method":"GET","url":"/api/logs","ip":"::1","status":200,"responseTime":4}
+{"timestamp":"2025-11-21T14:33:46.924Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/pasien/getNorm","ip":"::1","status":200,"responseTime":89}
+{"timestamp":"2025-11-21T14:33:53.892Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::1","status":200,"responseTime":56}
+{"timestamp":"2025-11-21T14:37:50.964Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalKepRalan","ip":"::1","status":500,"responseTime":86}
+{"timestamp":"2025-11-21T14:38:18.024Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalKepRalan","ip":"::1","status":500,"responseTime":63}
+{"timestamp":"2025-11-21T14:38:25.726Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalKepRalan","ip":"::1","status":404,"responseTime":70}
+{"timestamp":"2025-11-21T14:38:31.707Z","user":"Guest","method":"GET","url":"/api/logs","ip":"::1","status":200,"responseTime":5}
+{"timestamp":"2025-11-21T14:38:54.830Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalKepRalan","ip":"::1","status":200,"responseTime":61}
+{"timestamp":"2025-11-21T14:39:21.562Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalKepRalan","ip":"::1","status":200,"responseTime":57}
+{"timestamp":"2025-11-21T14:39:41.133Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalKepRalan","ip":"::1","status":200,"responseTime":77}
+{"timestamp":"2025-11-21T14:43:19.542Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::1","status":404,"responseTime":75}
+{"timestamp":"2025-11-21T14:43:29.807Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::1","status":200,"responseTime":56}
+{"timestamp":"2025-11-21T14:44:13.157Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::1","status":200,"responseTime":68}
+{"timestamp":"2025-11-21T14:44:59.453Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalKepRalan","ip":"::1","status":404,"responseTime":77}
+{"timestamp":"2025-11-21T14:45:16.768Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalKepRalan","ip":"::1","status":404,"responseTime":75}
+{"timestamp":"2025-11-21T14:45:58.948Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalKepRalan","ip":"::1","status":404,"responseTime":53}
+{"timestamp":"2025-11-21T14:46:40.258Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalKepRalan","ip":"::1","status":404,"responseTime":79}
+{"timestamp":"2025-11-21T14:47:33.127Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalKepRalan","ip":"::1","status":404,"responseTime":65}
+{"timestamp":"2025-11-21T14:47:58.792Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalKepRalan","ip":"::1","status":404,"responseTime":72}
+{"timestamp":"2025-11-21T14:48:24.060Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::1","status":200,"responseTime":48}
+{"timestamp":"2025-11-21T14:48:49.681Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::1","status":200,"responseTime":66}
+{"timestamp":"2025-11-21T14:49:00.690Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::1","status":200,"responseTime":61}
+{"timestamp":"2025-11-21T14:49:11.919Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::1","status":200,"responseTime":66}
+{"timestamp":"2025-11-21T14:49:20.554Z","user":"dr. Arsiyanto, Sp.B","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::1","status":200,"responseTime":50}
+{"timestamp":"2025-11-21T14:51:53.759Z","user":"Guest","method":"POST","url":"/api/login","ip":"::1","status":200,"responseTime":137}
+{"timestamp":"2025-11-21T14:52:22.907Z","user":"Guest","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::1","status":200,"responseTime":68}
+{"timestamp":"2025-11-21T14:52:31.462Z","user":"Guest","method":"GET","url":"/api/logs","ip":"::1","status":200,"responseTime":3}
+{"timestamp":"2025-11-21T14:53:24.583Z","user":"Guest","method":"POST","url":"/api/login","ip":"::1","status":200,"responseTime":78}
+{"timestamp":"2025-11-21T14:53:41.527Z","user":"Nasrul Hakim","method":"GET","url":"/api/profile","ip":"::1","status":200,"responseTime":6}
+{"timestamp":"2025-11-21T14:53:54.045Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::1","status":200,"responseTime":81}
+{"timestamp":"2025-11-21T14:54:21.230Z","user":"Guest","method":"GET","url":"/api/logs","ip":"::1","status":401,"responseTime":3}
+{"timestamp":"2025-11-21T14:54:23.084Z","user":"Guest","method":"GET","url":"/api/logs","ip":"::1","status":200,"responseTime":5}
+{"timestamp":"2025-11-21T14:54:27.815Z","user":"Guest","method":"GET","url":"/api/logs","ip":"::1","status":200,"responseTime":4}
+{"timestamp":"2025-11-21T14:54:35.870Z","user":"Guest","method":"GET","url":"/api/logs","ip":"::1","status":200,"responseTime":4}
+{"timestamp":"2025-11-21T14:58:00.340Z","user":"Guest","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::1","status":200,"responseTime":119}
+{"timestamp":"2025-11-21T15:01:04.088Z","user":"Guest","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::1","status":200,"responseTime":103}
+{"timestamp":"2025-11-21T15:01:10.554Z","user":"Guest","method":"POST","url":"/api/login","ip":"::1","status":200,"responseTime":40}
+{"timestamp":"2025-11-21T15:01:30.665Z","user":"Guest","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::1","status":200,"responseTime":76}
+{"timestamp":"2025-11-21T15:05:46.586Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::1","status":200,"responseTime":98}
+{"timestamp":"2025-11-21T15:06:04.387Z","user":"Nasrul Hakim","method":"POST","url":"/api/pasien/getNorm","ip":"::1","status":200,"responseTime":69}
+{"timestamp":"2025-11-21T15:06:10.922Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::1","status":200,"responseTime":74}
+{"timestamp":"2025-11-21T15:06:35.151Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::1","status":200,"responseTime":73}
+{"timestamp":"2025-11-21T15:08:48.253Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::1","status":200,"responseTime":84}
+{"timestamp":"2025-11-21T15:08:55.315Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::1","status":200,"responseTime":65}

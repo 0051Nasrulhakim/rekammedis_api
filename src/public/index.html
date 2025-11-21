@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Realtime Log Dashboard</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f8;
+            padding: 20px;
+            margin: 0;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .table-container {
+            max-height: 70vh;
+            overflow-y: auto;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            min-width: 900px;
+        }
+
+        th,
+        td {
+            padding: 8px 12px;
+            text-align: left;
+        }
+
+        thead th {
+            position: sticky;
+            top: 0;
+            background-color: #007bff;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 12px;
+            letter-spacing: 0.5px;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tbody tr:hover {
+            background-color: #e2f0ff;
+        }
+
+        /* Status colors */
+        td.status-2xx {
+            color: green;
+            font-weight: bold;
+        }
+
+        td.status-4xx {
+            color: orange;
+            font-weight: bold;
+        }
+
+        td.status-5xx {
+            color: red;
+            font-weight: bold;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            table {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2>📊 Realtime Log Dashboard</h2>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Timestamp</th>
+                    <th>User</th>
+                    <th>Method</th>
+                    <th>URL</th>
+                    <th>IP</th>
+                    <th>Status</th>
+                    <th>Response Time (ms)</th>
+                </tr>
+            </thead>
+            <tbody id="logTable"></tbody>
+        </table>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const tbody = document.getElementById("logTable");
+
+        // Load log lama
+        fetch("/api/logs")
+            .then(res => res.json())
+            .then(logs => logs.forEach(log => addLogRow(log)));
+
+        // Socket.io untuk log baru
+        const socket = io();
+        socket.on("newLog", log => addLogRow(log));
+
+        function addLogRow(log) {
+            const tr = document.createElement("tr");
+
+            // kelas status untuk warna
+            let statusClass = '';
+            if (log.status >= 200 && log.status < 300) statusClass = 'status-2xx';
+            else if (log.status >= 400 && log.status < 500) statusClass = 'status-4xx';
+            else if (log.status >= 500) statusClass = 'status-5xx';
+
+            // konversi timestamp ke WIB
+            const waktuIndonesia = new Date(log.timestamp)
+                .toLocaleString("id-ID", { timeZone: "Asia/Jakarta" });
+
+            tr.innerHTML = `
+            <td>${waktuIndonesia}</td>
+            <td>${log.user}</td>
+            <td>${log.method}</td>
+            <td>${log.url}</td>
+            <td>${log.ip}</td>
+            <td class="${statusClass}">${log.status}</td>
+            <td>${log.responseTime}</td>
+        `;
+            tbody.prepend(tr);
+        }
+    </script>
+
+</body>
+
+</html>
