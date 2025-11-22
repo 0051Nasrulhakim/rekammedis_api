@@ -11,18 +11,24 @@ const jwt = require("jsonwebtoken");
 const routes = require("./src/routes/login");
 const ralan = require("./src/routes/rawatJalan");
 const pasien = require("./src/routes/pasien");
+const ranap = require("./src/routes/rawatInap");
+const ibs = require("./src/routes/ibs");
+const akses = require("./src/routes/akses");
 const logRequest = require("./src/utils/logger");
 
 const app = express();
-app.use(cors());
+app.use(cors({
+    origin: "*",
+    credentials: true
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // ===== Session =====
 app.use(session({
-    secret: process.env.SESSION_SECRET || "supersecretkey",
+    secret: process.env.SESSION_SECRET || "superrandomsecret",
     resave: true,   // reset idle timeout
-    saveUninitialized: false,
+    saveUninitialized: true,
     cookie: { maxAge: (parseInt(process.env.SESSION_IDLE_EXPIRE_MIN) || 10) * 60 * 1000 } // default 10 menit
 }));
 
@@ -134,7 +140,10 @@ app.use(express.static(path.join(__dirname, "src/public")));
 
 // ===== Routes API lain =====
 app.use("/api", routes);
+app.use("/api/akses", akses);
 app.use("/api/rm", ralan);
+app.use("/api/rm", ibs);
+app.use("/api/rm", ranap);
 app.use("/api/pasien", pasien);
 
 // ===== Global 404 & error =====

@@ -1,8 +1,8 @@
-const M_rawatJalan = require("../../models/rawat_jalan/M_rawatJalan");
+const ranap = require("../../models/rawat_inap/M_ranap");
 
 module.exports = {
 
-    getAwalMedisRalan: async (req, res) => {
+    getCatatanAdimeGizi: async (req, res) => {
         try {
             const { no_rawat } = req.body || {};
 
@@ -14,7 +14,7 @@ module.exports = {
                 });
             }
 
-            const data = await M_rawatJalan.awalMedisRalan(no_rawat);
+            const data = await ranap.catatanAdimeGizi(no_rawat)
 
             if (!data) {
                 return res.status(404).json({
@@ -25,7 +25,7 @@ module.exports = {
 
             return res.json({
                 success: true,
-                message: "Data Awal Medis Ralan berhasil diambil",
+                message: "Data ADIME GIZI berhasil diambil",
                 data
             });
 
@@ -39,7 +39,8 @@ module.exports = {
             });
         }
     },
-    getAwalMedisIGD: async (req, res) => {
+
+    getPermintaanDiet: async (req, res) => {
         try {
             const { no_rawat } = req.body || {};
 
@@ -51,7 +52,7 @@ module.exports = {
                 });
             }
 
-            const data = await M_rawatJalan.awalMedisIgd(no_rawat);
+            const data = await ranap.permintaanDiet(no_rawat)
 
             if (!data) {
                 return res.status(404).json({
@@ -62,7 +63,7 @@ module.exports = {
 
             return res.json({
                 success: true,
-                message: "Data Awal Medis IGD berhasil diambil",
+                message: "Data Permintaan Diet berhasil diambil",
                 data
             });
 
@@ -76,7 +77,8 @@ module.exports = {
             });
         }
     },
-    getAwalKeperawatanRalan: async (req, res) => {
+
+    getAwalMedisInap: async (req, res) => {
         try {
             const { no_rawat } = req.body || {};
 
@@ -88,7 +90,7 @@ module.exports = {
                 });
             }
 
-            const data = await M_rawatJalan.awalKeperawatanRalan(no_rawat);
+            const data = await ranap.awalMedisRanap(no_rawat)
 
             if (!data) {
                 return res.status(404).json({
@@ -99,7 +101,7 @@ module.exports = {
 
             return res.json({
                 success: true,
-                message: "Data Awal Keperawatan Ralan berhasil diambil",
+                message: "Data Awal Medis Ranap berhasil diambil",
                 data
             });
 
@@ -113,7 +115,8 @@ module.exports = {
             });
         }
     },
-    getAwalKeperawatanIgd: async (req, res) => {
+
+    getAwalKepRanap: async (req, res) => {
         try {
             const { no_rawat } = req.body || {};
 
@@ -125,7 +128,7 @@ module.exports = {
                 });
             }
 
-            const data = await M_rawatJalan.awalKeperawatanIgd(no_rawat);
+            const data = await ranap.awalKepRanap(no_rawat)
 
             if (!data) {
                 return res.status(404).json({
@@ -136,7 +139,7 @@ module.exports = {
 
             return res.json({
                 success: true,
-                message: "Data Awal Keperawatan IGD berhasil diambil",
+                message: "Data Awal Keperawatan Ranap berhasil diambil",
                 data
             });
 
@@ -150,79 +153,6 @@ module.exports = {
             });
         }
     },
-    getRiwayatSoapDokter: async (req, res) => {
-        try {
-            const { no_rm } = req.body || {};
+    
 
-            // Validasi input
-            if (!no_rm || no_rm.trim() === "") {
-                return res.status(400).json({
-                    success: false,
-                    message: "Field no_rm wajib diisi"
-                });
-            }
-
-            const data = await M_rawatJalan.riwayatSoapDokter(no_rm);
-
-            if (!data) {
-                return res.status(404).json({
-                    success: false,
-                    message: "Data tidak ditemukan"
-                });
-            }
-
-            return res.json({
-                success: true,
-                message: "Data Riwayat SOAP diambil",
-                data
-            });
-
-        } catch (error) {
-            console.error("Controller Error:", error.message);
-
-            return res.status(500).json({
-                success: false,
-                message: "Terjadi kesalahan pada server",
-                error: error.message
-            });
-        }
-    },
-    getRiwayatSoap: async (req, res) => {
-        try {
-            const { no_rm } = req.body || {};
-
-            // Validasi input
-            if (!no_rm || no_rm.trim() === "") {
-                return res.status(400).json({
-                    success: false,
-                    message: "Field no_rm wajib diisi"
-                });
-            }
-
-            const data = await M_rawatJalan.allRiwayatSoap(no_rm);
-
-            if (!data) {
-                return res.status(404).json({
-                    success: false,
-                    message: "Data tidak ditemukan"
-                });
-            }
-
-            return res.json({
-                success: true,
-                message: "Data Riwayat SOAP diambil",
-                data
-            });
-
-        } catch (error) {
-            console.error("Controller Error:", error.message);
-
-            return res.status(500).json({
-                success: false,
-                message: "Terjadi kesalahan pada server",
-                error: error.message
-            });
-        }
-    },
-
-};
+}

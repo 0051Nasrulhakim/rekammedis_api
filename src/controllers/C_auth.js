@@ -7,7 +7,6 @@ module.exports = {
         try {
             const { nip } = req.body || {};
 
-            // Jika body kosong
             if (!nip) {
                 return res.status(400).json({
                     success: false,
@@ -15,8 +14,7 @@ module.exports = {
                 });
             }
 
-            // Cek ke model
-            const user = await User.getDokter(nip);
+            const user = await User.getPetugas(nip);
 
             if (!user) {
                 return res.status(404).json({
@@ -25,11 +23,11 @@ module.exports = {
                 });
             }
 
-            // Buat token
+            // BUAT TOKEN JWT
             const token = jwt.sign(
                 { nip: user.nip, nm_user: user.nama },
                 process.env.JWT_SECRET,
-                { expiresIn: "2h" }
+                { expiresIn: "9h" }
             );
 
             return res.json({
