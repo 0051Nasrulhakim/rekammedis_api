@@ -164,3 +164,30 @@
 {"timestamp":"2025-11-22T08:55:43.225Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":18}
 {"timestamp":"2025-11-22T08:56:18.936Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ranap/permintaanDiet","ip":"::ffff:192.168.2.6","status":200,"responseTime":20}
 {"timestamp":"2025-11-22T09:00:38.867Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ranap/permintaanDiet","ip":"::ffff:192.168.2.6","status":200,"responseTime":19}
+{"timestamp":"2025-11-23T15:00:22.097Z","user":"Guest","method":"POST","url":"/api/login","ip":"::1","status":500,"responseTime":10030}
+{"timestamp":"2025-11-23T15:00:56.368Z","user":"Guest","method":"POST","url":"/api/login","ip":"::1","status":500,"responseTime":10031}
+{"timestamp":"2025-11-23T15:02:07.869Z","user":"Guest","method":"POST","url":"/api/login","ip":"::1","status":500,"responseTime":10024}
+{"timestamp":"2025-11-23T15:02:49.000Z","user":"Guest","method":"POST","url":"/api/login","ip":"::1","status":500,"responseTime":10028}
+{"timestamp":"2025-11-23T15:03:49.528Z","user":"Guest","method":"POST","url":"/api/login","ip":"::1","status":500,"responseTime":10073}
+{"timestamp":"2025-11-23T15:06:08.447Z","user":"Guest","method":"POST","url":"/api/login","ip":"::1","status":200,"responseTime":115}
+{"timestamp":"2025-11-23T15:06:37.973Z","user":"Nasrul Hakim","method":"GET","url":"/api/profile","ip":"::1","status":200,"responseTime":79}
+{"timestamp":"2025-11-23T15:07:20.419Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ranap/transferAntarRuang","ip":"::1","status":500,"responseTime":90}
+{"timestamp":"2025-11-23T15:10:00.935Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ranap/transferAntarRuang","ip":"::1","status":404,"responseTime":62}
+{"timestamp":"2025-11-23T15:10:25.044Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ranap/transferAntarRuang","ip":"::1","status":200,"responseTime":77}
+{"timestamp":"2025-11-23T15:10:45.409Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ranap/transferAntarRuang","ip":"::1","status":200,"responseTime":63}
+{"timestamp":"2025-11-23T15:11:20.900Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ranap/transferAntarRuang","ip":"::1","status":200,"responseTime":76}
+{"timestamp":"2025-11-23T15:12:40.084Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ranap/transferAntarRuang","ip":"::1","status":200,"responseTime":170}
+{"timestamp":"2025-11-23T15:13:24.910Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ranap/transferAntarRuang","ip":"::1","status":200,"responseTime":77}
+{"timestamp":"2025-11-23T15:34:03.691Z","user":"Nasrul Hakim","method":"POST","url":"/api/pasien/getDiagnosa","ip":"::1","status":500,"responseTime":30}
+{"timestamp":"2025-11-23T15:34:22.861Z","user":"Nasrul Hakim","method":"POST","url":"/api/pasien/getDiagnosa","ip":"::1","status":500,"responseTime":31}
+{"timestamp":"2025-11-23T15:34:41.764Z","user":"Nasrul Hakim","method":"POST","url":"/api/pasien/getDiagnosa","ip":"::1","status":200,"responseTime":40}
+{"timestamp":"2025-11-23T15:36:18.998Z","user":"Nasrul Hakim","method":"POST","url":"/api/pasien/getDiagnosa","ip":"::1","status":500,"responseTime":34}
+{"timestamp":"2025-11-23T15:36:40.447Z","user":"Nasrul Hakim","method":"POST","url":"/api/pasien/getDiagnosa","ip":"::1","status":200,"responseTime":32}
+{"timestamp":"2025-11-23T15:37:34.610Z","user":"Nasrul Hakim","method":"POST","url":"/api/pasien/getDiagnosa","ip":"::1","status":200,"responseTime":41}
+{"timestamp":"2025-11-23T15:41:06.510Z","user":"Nasrul Hakim","method":"POST","url":"/api/pasien/getDiagnosa","ip":"::1","status":200,"responseTime":71}
+{"timestamp":"2025-11-23T15:41:17.018Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ranap/transferAntarRuang","ip":"::1","status":200,"responseTime":44}
+{"timestamp":"2025-11-23T15:42:05.299Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/riwayatSoapDokter","ip":"::1","status":200,"responseTime":47}
+{"timestamp":"2025-11-23T15:43:19.856Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/riwayatSoapDokter","ip":"::1","status":200,"responseTime":53}
+{"timestamp":"2025-11-23T15:43:43.416Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/riwayatSoap","ip":"::1","status":200,"responseTime":54}
+{"timestamp":"2025-11-23T15:44:02.162Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/riwayatSoapDokter","ip":"::1","status":200,"responseTime":48}
+{"timestamp":"2025-11-23T15:44:51.537Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/riwayatSoapDokter","ip":"::1","status":200,"responseTime":53}

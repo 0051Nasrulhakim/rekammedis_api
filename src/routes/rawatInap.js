@@ -9,5 +9,6 @@ router.post("/ranap/catatanAdime", auth, controller.getCatatanAdimeGizi);
 router.post("/ranap/permintaanDiet", auth, controller.getPermintaanDiet);
 router.post("/ranap/awalMedis", auth, controller.getAwalMedisInap);
 router.post("/ranap/awalKepRanap", auth, controller.getAwalKepRanap);
+router.post("/ranap/transferAntarRuang", auth, controller.getTranferPasienAntarRuang);
 
 module.exports = router;

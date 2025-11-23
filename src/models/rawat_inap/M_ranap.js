@@ -17,7 +17,33 @@ module.exports = {
 
             const [rows] = await pool.query(query, [no_rawat]);
 
-            return rows.length > 0 ? rows[0] : null;
+            // Kembalikan semua data
+            return rows;
+
+        } catch (error) {
+            console.error("Error in getRegisterByNoRawat:", error.message);
+            throw error; // diteruskan ke controller
+        }
+    },
+
+    transferPasien: async (no_rawat) => {
+        try {
+            if (!no_rawat) {
+                throw new Error("no_rawat is required");
+            }
+
+            const query = `
+                SELECT transfer_pasien_antar_ruang.*, petugas_serah.nama as penyerah, petugas_terima.nama as penerima   
+                FROM transfer_pasien_antar_ruang 
+                JOIN petugas AS petugas_serah on petugas_serah.nip = transfer_pasien_antar_ruang.nip_menyerahkan  
+                JOIN petugas AS petugas_terima on petugas_terima.nip = transfer_pasien_antar_ruang.nip_menerima  
+                WHERE transfer_pasien_antar_ruang.no_rawat = ? 
+            `;
+
+            const [rows] = await pool.query(query, [no_rawat]);
+
+            // Kembalikan semua data
+            return rows;
 
         } catch (error) {
             console.error("Error in getRegisterByNoRawat:", error.message);
@@ -40,7 +66,8 @@ module.exports = {
 
             const [rows] = await pool.query(query, [no_rawat]);
 
-            return rows.length > 0 ? rows[0] : null;
+            // Kembalikan semua data
+            return rows;
 
         } catch (error) {
             console.error("Error in getRegisterByNoRawat:", error.message);
@@ -85,7 +112,7 @@ module.exports = {
                     pakr.nip2 AS pengkaji2,
                     pt_perawat2.nama AS nama_pengkaji2
                 FROM penilaian_awal_keperawatan_ranap pakr
-                JOIN petugas AS pt_dokter   ON pt_dokter.nip = pakr.kd_dokter
+                JOIN petugas AS pt_dokter ON pt_dokter.nip = pakr.kd_dokter
                 JOIN petugas AS pt_perawat1 ON pt_perawat1.nip = pakr.nip1
                 JOIN petugas AS pt_perawat2 ON pt_perawat2.nip = pakr.nip2
                 WHERE pakr.no_rawat = ?

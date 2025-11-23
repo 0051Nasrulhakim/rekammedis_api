@@ -39,7 +39,7 @@ module.exports = {
                     INNER JOIN petugas pt ON ralan.nip = pt.nip
                     INNER JOIN dokter d ON ralan.nip = d.kd_dokter
                     LEFT JOIN bridging_sep ON bridging_sep.no_rawat = rp.no_rawat
-                    WHERE rp.no_rkm_medis = "046770"
+                    WHERE rp.no_rkm_medis = ? 
 
                     UNION ALL
 
@@ -71,7 +71,7 @@ module.exports = {
                     INNER JOIN petugas pt ON ranap.nip = pt.nip
                     INNER JOIN dokter d ON ranap.nip = d.kd_dokter
                     LEFT JOIN bridging_sep ON bridging_sep.no_rawat = rp.no_rawat
-                    WHERE rp.no_rkm_medis = "046770"
+                    WHERE rp.no_rkm_medis = ? 
                 ) AS gabungan
                 ORDER BY tgl_perawatan DESC, jam_rawat DESC
                 LIMIT 15;
