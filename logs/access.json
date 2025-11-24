@@ -191,3 +191,254 @@
 {"timestamp":"2025-11-23T15:43:43.416Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/riwayatSoap","ip":"::1","status":200,"responseTime":54}
 {"timestamp":"2025-11-23T15:44:02.162Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/riwayatSoapDokter","ip":"::1","status":200,"responseTime":48}
 {"timestamp":"2025-11-23T15:44:51.537Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/riwayatSoapDokter","ip":"::1","status":200,"responseTime":53}
+{"timestamp":"2025-11-24T02:29:48.783Z","user":"Guest","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":401,"responseTime":6}
+{"timestamp":"2025-11-24T02:31:08.316Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":7}
+{"timestamp":"2025-11-24T02:32:05.405Z","user":"Guest","method":"GET","url":"/api/login","ip":"::ffff:192.168.2.6","status":404,"responseTime":3}
+{"timestamp":"2025-11-24T02:32:17.096Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":8}
+{"timestamp":"2025-11-24T02:34:55.972Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":10}
+{"timestamp":"2025-11-24T02:38:10.340Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":7}
+{"timestamp":"2025-11-24T02:39:37.140Z","user":"Guest","method":"GET","url":"/api/login","ip":"::ffff:192.168.2.6","status":404,"responseTime":4}
+{"timestamp":"2025-11-24T02:39:59.423Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":9}
+{"timestamp":"2025-11-24T02:43:44.569Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":8}
+{"timestamp":"2025-11-24T02:43:52.794Z","user":"Guest","method":"GET","url":"/api/login","ip":"::ffff:192.168.2.6","status":404,"responseTime":4}
+{"timestamp":"2025-11-24T02:45:59.603Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":8}
+{"timestamp":"2025-11-24T02:46:54.771Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":400,"responseTime":2}
+{"timestamp":"2025-11-24T02:47:16.751Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":12}
+{"timestamp":"2025-11-24T02:47:28.514Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":8}
+{"timestamp":"2025-11-24T02:47:45.521Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":8}
+{"timestamp":"2025-11-24T02:47:52.254Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":13}
+{"timestamp":"2025-11-24T02:47:59.751Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":9}
+{"timestamp":"2025-11-24T02:48:51.489Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":10}
+{"timestamp":"2025-11-24T02:50:00.352Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":9}
+{"timestamp":"2025-11-24T02:51:53.684Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":8}
+{"timestamp":"2025-11-24T02:52:17.877Z","user":"Guest","method":"GET","url":"/api/login?{%22nip%22:%22nasrul%22}","ip":"::ffff:192.168.2.6","status":404,"responseTime":4}
+{"timestamp":"2025-11-24T02:52:42.291Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":400,"responseTime":3}
+{"timestamp":"2025-11-24T02:53:34.008Z","user":"Guest","method":"GET","url":"/api/login?{%22nip%22:%22nasrul%22}","ip":"::ffff:192.168.2.6","status":404,"responseTime":5}
+{"timestamp":"2025-11-24T02:53:42.659Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":7}
+{"timestamp":"2025-11-24T02:54:49.345Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":10}
+{"timestamp":"2025-11-24T02:55:42.457Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":8}
+{"timestamp":"2025-11-24T02:56:09.061Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":400,"responseTime":3}
+{"timestamp":"2025-11-24T02:56:22.808Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":8}
+{"timestamp":"2025-11-24T02:57:16.739Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":7}
+{"timestamp":"2025-11-24T02:57:48.567Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":8}
+{"timestamp":"2025-11-24T02:57:49.173Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":8}
+{"timestamp":"2025-11-24T02:59:03.655Z","user":"Guest","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":401,"responseTime":2}
+{"timestamp":"2025-11-24T02:59:03.674Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":9}
+{"timestamp":"2025-11-24T02:59:48.234Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":11}
+{"timestamp":"2025-11-24T03:00:56.239Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":8}
+{"timestamp":"2025-11-24T03:07:22.576Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":9}
+{"timestamp":"2025-11-24T03:08:34.053Z","user":"Nasrul Hakim","method":"GET","url":"/api/rm/ralan/awalMedisIgd?{%22no_rawat%22:%222024/12/10/000084%22}","ip":"::ffff:192.168.2.6","status":404,"responseTime":4}
+{"timestamp":"2025-11-24T03:10:02.633Z","user":"Nasrul Hakim","method":"GET","url":"/api/rm/ralan/awalMedisIgd?{%22no_rawat%22:%222024/12/10/000084%22}","ip":"::ffff:192.168.2.6","status":404,"responseTime":7}
+{"timestamp":"2025-11-24T03:10:22.733Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":10}
+{"timestamp":"2025-11-24T03:10:48.221Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":9}
+{"timestamp":"2025-11-24T03:10:58.981Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":400,"responseTime":6}
+{"timestamp":"2025-11-24T03:11:18.549Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":14}
+{"timestamp":"2025-11-24T03:12:08.910Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":9}
+{"timestamp":"2025-11-24T03:12:17.823Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":9}
+{"timestamp":"2025-11-24T03:14:45.567Z","user":"Nasrul Hakim","method":"POST","url":"/rm/ralan/awalMedisIgd","ip":"::1","status":404,"responseTime":2}
+{"timestamp":"2025-11-24T03:15:03.426Z","user":"Nasrul Hakim","method":"POST","url":"/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":3}
+{"timestamp":"2025-11-24T03:15:19.426Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":10}
+{"timestamp":"2025-11-24T03:16:49.005Z","user":"Guest","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":401,"responseTime":4}
+{"timestamp":"2025-11-24T03:16:53.530Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":7}
+{"timestamp":"2025-11-24T03:17:23.192Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":9}
+{"timestamp":"2025-11-24T03:17:29.141Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":10}
+{"timestamp":"2025-11-24T03:17:37.235Z","user":"Guest","method":"GET","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":4}
+{"timestamp":"2025-11-24T03:19:45.374Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":10}
+{"timestamp":"2025-11-24T03:19:58.739Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":8}
+{"timestamp":"2025-11-24T03:20:28.231Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":9}
+{"timestamp":"2025-11-24T03:20:46.315Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":9}
+{"timestamp":"2025-11-24T03:21:24.296Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":9}
+{"timestamp":"2025-11-24T03:21:26.480Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":9}
+{"timestamp":"2025-11-24T03:21:27.580Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":11}
+{"timestamp":"2025-11-24T03:21:30.161Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":9}
+{"timestamp":"2025-11-24T03:21:33.389Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":9}
+{"timestamp":"2025-11-24T03:21:35.453Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":9}
+{"timestamp":"2025-11-24T03:21:42.415Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":8}
+{"timestamp":"2025-11-24T03:21:50.008Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":9}
+{"timestamp":"2025-11-24T03:22:11.722Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":8}
+{"timestamp":"2025-11-24T03:22:17.087Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":9}
+{"timestamp":"2025-11-24T03:24:12.617Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":10}
+{"timestamp":"2025-11-24T03:24:14.802Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T03:24:16.897Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T03:24:26.433Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":5}
+{"timestamp":"2025-11-24T03:24:47.906Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T03:27:29.218Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T03:33:36.768Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":400,"responseTime":3}
+{"timestamp":"2025-11-24T03:34:29.019Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T03:35:09.125Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":400,"responseTime":2}
+{"timestamp":"2025-11-24T03:35:29.310Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T03:48:20.987Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T03:48:32.418Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T03:48:37.491Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T03:48:40.898Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T03:48:59.686Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T03:50:57.980Z","user":"Guest","method":"POST","url":"/api/login","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T03:50:57.986Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T03:51:42.647Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T03:54:01.732Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T03:54:50.284Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T03:55:16.497Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T03:55:41.683Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T03:55:55.082Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T03:56:08.103Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T03:56:51.240Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T03:56:56.263Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T03:57:06.928Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T03:57:17.096Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T03:57:26.687Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T03:57:58.816Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T03:58:18.846Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T03:58:45.425Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T03:58:51.045Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T03:59:13.260Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:00:01.339Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T04:00:15.002Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T04:00:23.959Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:04:39.382Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:22:08.026Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":27}
+{"timestamp":"2025-11-24T04:23:15.820Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:24:18.049Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T04:24:54.471Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:26:21.458Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T04:26:50.689Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T04:27:01.299Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:27:46.545Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:28:08.676Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:28:25.159Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:28:53.560Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:29:52.775Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:30:48.733Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T04:31:09.960Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:31:41.127Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T04:34:01.351Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T04:34:30.190Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:35:03.131Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T04:35:11.624Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:35:20.384Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:35:32.824Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:35:36.768Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:35:41.544Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T04:35:45.743Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:36:21.889Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:36:44.454Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:36:50.226Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T04:36:59.764Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:37:25.577Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:38:39.744Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:41:10.479Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T04:46:38.855Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:47:04.279Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:48:25.497Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T04:56:54.571Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":6}
+{"timestamp":"2025-11-24T05:06:54.836Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T05:06:54.841Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":7}
+{"timestamp":"2025-11-24T05:07:51.196Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T05:07:51.198Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":3}
+{"timestamp":"2025-11-24T05:32:34.574Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T05:32:34.576Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":3}
+{"timestamp":"2025-11-24T05:33:05.999Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T05:33:11.064Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T05:33:11.083Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":4}
+{"timestamp":"2025-11-24T05:35:12.981Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T05:35:12.992Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":4}
+{"timestamp":"2025-11-24T05:38:27.679Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T05:38:27.686Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":3}
+{"timestamp":"2025-11-24T05:38:38.566Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T05:38:38.583Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":4}
+{"timestamp":"2025-11-24T05:39:19.577Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T05:39:19.600Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":9}
+{"timestamp":"2025-11-24T05:42:28.207Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T05:42:28.212Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":4}
+{"timestamp":"2025-11-24T05:43:04.279Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T05:43:04.301Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":3}
+{"timestamp":"2025-11-24T05:43:23.751Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T05:43:23.767Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":3}
+{"timestamp":"2025-11-24T05:45:21.301Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T05:45:21.302Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":3}
+{"timestamp":"2025-11-24T05:46:19.152Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T05:46:19.154Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":3}
+{"timestamp":"2025-11-24T05:52:21.560Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T05:52:21.561Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":4}
+{"timestamp":"2025-11-24T05:53:44.455Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T05:53:44.456Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":3}
+{"timestamp":"2025-11-24T05:55:06.219Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T05:55:06.220Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":3}
+{"timestamp":"2025-11-24T05:55:21.865Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T05:55:21.867Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":3}
+{"timestamp":"2025-11-24T08:11:18.748Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:11:18.750Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":3}
+{"timestamp":"2025-11-24T08:12:23.996Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T08:12:24.016Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":4}
+{"timestamp":"2025-11-24T08:13:15.461Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:13:15.481Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":4}
+{"timestamp":"2025-11-24T08:15:16.400Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:15:16.418Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":404,"responseTime":5}
+{"timestamp":"2025-11-24T08:18:17.146Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":8}
+{"timestamp":"2025-11-24T08:18:17.156Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":5}
+{"timestamp":"2025-11-24T08:19:07.424Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T08:19:07.431Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":5}
+{"timestamp":"2025-11-24T08:20:14.555Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T08:20:14.573Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T08:20:22.895Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:20:22.910Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T08:20:57.206Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T08:20:57.221Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":5}
+{"timestamp":"2025-11-24T08:21:22.418Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T08:21:22.427Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:22:23.072Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:22:23.082Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":5}
+{"timestamp":"2025-11-24T08:22:49.903Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:22:49.908Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:23:41.056Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:23:41.071Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":5}
+{"timestamp":"2025-11-24T08:23:57.466Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T08:23:57.470Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":7}
+{"timestamp":"2025-11-24T08:24:05.178Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:24:05.180Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T08:24:09.743Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:24:09.745Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:26:34.381Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T08:26:34.383Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:27:06.875Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:27:06.876Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:28:53.520Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:28:53.521Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:29:15.911Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:29:15.913Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:29:23.289Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T08:29:23.291Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:31:58.726Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:31:58.730Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:33:06.109Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:33:06.124Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":5}
+{"timestamp":"2025-11-24T08:34:20.309Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:34:20.323Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T08:35:01.533Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:35:01.555Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:38:32.585Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T08:38:32.599Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":5}
+{"timestamp":"2025-11-24T08:46:00.422Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedis","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T09:00:53.983Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T09:00:53.984Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T09:01:19.565Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":6}
+{"timestamp":"2025-11-24T09:01:19.568Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":6}
+{"timestamp":"2025-11-24T09:01:19.571Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedis","ip":"::ffff:192.168.2.6","status":200,"responseTime":8}
+{"timestamp":"2025-11-24T09:02:06.110Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T09:02:06.111Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T09:02:06.113Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedis","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T09:03:02.182Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":6}
+{"timestamp":"2025-11-24T09:03:02.184Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":6}
+{"timestamp":"2025-11-24T09:03:02.184Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedis","ip":"::ffff:192.168.2.6","status":200,"responseTime":5}
+{"timestamp":"2025-11-24T09:03:14.009Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":5}
+{"timestamp":"2025-11-24T09:03:14.012Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":5}
+{"timestamp":"2025-11-24T09:03:14.016Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedis","ip":"::ffff:192.168.2.6","status":200,"responseTime":6}
+{"timestamp":"2025-11-24T09:04:39.173Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedis","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T09:05:20.280Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T09:05:20.281Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T09:05:20.283Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedis","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T09:06:52.260Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":2}
+{"timestamp":"2025-11-24T09:06:52.263Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T09:06:52.265Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedis","ip":"::ffff:192.168.2.6","status":200,"responseTime":3}
+{"timestamp":"2025-11-24T09:07:20.926Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedisIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T09:07:20.927Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalKepIgd","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}
+{"timestamp":"2025-11-24T09:07:20.928Z","user":"Nasrul Hakim","method":"POST","url":"/api/rm/ralan/awalMedis","ip":"::ffff:192.168.2.6","status":200,"responseTime":4}

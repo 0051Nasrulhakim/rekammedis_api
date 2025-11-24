@@ -19,7 +19,8 @@ const logRequest = require("./src/utils/logger");
 const app = express();
 app.use(cors({
     origin: "*",
-    credentials: true
+    methods: "GET,POST,PUT,DELETE",
+    allowedHeaders: "Content-Type, Authorization"
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -32,15 +33,21 @@ app.use(session({
     cookie: { maxAge: (parseInt(process.env.SESSION_IDLE_EXPIRE_MIN) || 10) * 60 * 1000 } // default 10 menit
 }));
 
-// ===== Middleware session auth =====
 function authSession(req, res, next) {
     if (req.session.loggedIn) {
-        req.session._garbage = Date();
         req.session.touch();
         return next();
     }
-    res.redirect("/login");
+
+    // Jika request API → balikan JSON error, jangan redirect
+    if (req.originalUrl.startsWith("/api")) {
+        return res.status(401).json({ success: false, message: "Session expired" });
+    }
+
+    // Jika halaman biasa → redirect
+    return res.redirect("/login");
 }
+
 
 // ===== Routes =====
 

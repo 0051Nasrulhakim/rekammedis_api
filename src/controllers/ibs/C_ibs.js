@@ -8,7 +8,7 @@ module.exports = {
 
             // Validasi input
             if (!no_rawat || no_rawat.trim() === "") {
-                return res.status(400).json({
+                return res.status(200).json({
                     success: false,
                     message: "Field no_rawat wajib diisi"
                 });
@@ -17,7 +17,7 @@ module.exports = {
             const data = await ibs.asuhanMedisPascaBedah(no_rawat);
 
             if (!data) {
-                return res.status(404).json({
+                return res.status(200).json({
                     success: false,
                     message: "Data tidak ditemukan"
                 });
@@ -46,7 +46,7 @@ module.exports = {
 
             // Validasi input
             if (!no_rawat || no_rawat.trim() === "") {
-                return res.status(400).json({
+                return res.status(200).json({
                     success: false,
                     message: "Field no_rawat wajib diisi"
                 });
@@ -55,7 +55,7 @@ module.exports = {
             const data = await ibs.asuhanMedisPraBedah(no_rawat);
 
             if (!data) {
-                return res.status(404).json({
+                return res.status(200).json({
                     success: false,
                     message: "Data tidak ditemukan"
                 });
