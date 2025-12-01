@@ -87,6 +87,31 @@ module.exports = {
             throw error; 
         }
     },
+
+    resume: async (no_rawat) => {
+        try {
+            if (!no_rawat) {
+                throw new Error("no_rawat is required");
+            }
+
+            const query = `
+                SELECT resume_pasien.*, dokter.nm_dokter, reg_periksa.tgl_registrasi 
+                FROM resume_pasien 
+                JOIN reg_periksa on reg_periksa.no_rawat = resume_pasien.no_rawat 
+                JOIN dokter on dokter.kd_dokter = resume_pasien.kd_dokter 
+                WHERE resume_pasien.no_rawat = ? 
+            `;
+
+            const [rows] = await pool.query(query, [no_rawat]);
+
+            return rows.length > 0 ? rows[0] : null;
+
+        } catch (error) {
+            console.error("Error in getRegisterByNoRawat:", error.message);
+            throw error; 
+        }
+    },
+
     allRiwayatSoap: async (no_rm) => {
         try {
             if (!no_rm) {
@@ -115,8 +140,8 @@ module.exports = {
                                 CASE 
                                     WHEN bridging_sep.peserta LIKE '%PBI%' THEN 'BPJS - PBI'
                                     ELSE 'BPJS - Non PBI'
-                                END
-                            ELSE penjab.png_jawab
+                                END 
+                            ELSE penjab.png_jawab 
                         END AS jenis_peserta
                     FROM pemeriksaan_ralan ralan
                     INNER JOIN reg_periksa rp ON ralan.no_rawat = rp.no_rawat

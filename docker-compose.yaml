@@ -1,0 +1,14 @@
+version: '2.2'
+
+services:
+  nodeapp:
+    build: .
+    container_name: rekammedis_api
+    ports:
+      - "7777:7777"
+    environment:
+      - NODE_ENV=production
+      - PORT=7777
+    volumes:
+      - .:/app
+    restart: always

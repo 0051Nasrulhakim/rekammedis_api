@@ -11,5 +11,6 @@ router.post("/ralan/awalKepRalan", auth, controller.getAwalKeperawatanRalan);
 router.post("/ralan/awalKepIgd", auth, controller.getAwalKeperawatanIgd);
 router.post("/ralan/riwayatSoapDokter", auth, controller.getRiwayatSoapDokter);
 router.post("/ralan/riwayatSoap", auth, controller.getRiwayatSoap);
+router.post("/ralan/resume", auth, controller.getResume);
 
 module.exports = router;

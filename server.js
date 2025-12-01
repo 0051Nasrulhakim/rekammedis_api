@@ -11,6 +11,7 @@ const jwt = require("jsonwebtoken");
 const routes = require("./src/routes/login");
 const ralan = require("./src/routes/rawatJalan");
 const pasien = require("./src/routes/pasien");
+const kode_wilayah = require("./src/routes/kode_wilayah");
 const ranap = require("./src/routes/rawatInap");
 const ibs = require("./src/routes/ibs");
 const akses = require("./src/routes/akses");
@@ -152,6 +153,7 @@ app.use("/api/rm", ralan);
 app.use("/api/rm", ibs);
 app.use("/api/rm", ranap);
 app.use("/api/pasien", pasien);
+app.use("/api/utils", kode_wilayah);
 
 // ===== Global 404 & error =====
 app.use((req, res) => {

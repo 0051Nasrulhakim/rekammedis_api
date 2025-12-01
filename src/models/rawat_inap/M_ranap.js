@@ -58,10 +58,34 @@ module.exports = {
             }
 
             const query = `
-                SELECT detail_beri_diet.* 
-                FROM detail_beri_diet 
-                JOIN diet on diet.kd_diet = detail_beri_diet.kd_diet 
-                WHERE detail_beri_diet.no_rawat = ? 
+                SELECT 
+                    detail_beri_diet.no_rawat,
+                    reg_periksa.no_rkm_medis,
+                    pasien.nm_pasien,
+                    CONCAT(detail_beri_diet.kd_kamar, ', ', bangsal.nm_bangsal) AS kamar_bangsal,
+                    detail_beri_diet.tanggal,
+                    detail_beri_diet.waktu,
+                    jam_diet_pasien.jam,
+                    diet.nama_diet,
+                    detail_beri_diet.kd_kamar,
+                    detail_beri_diet.kd_diet
+                FROM detail_beri_diet
+                INNER JOIN reg_periksa 
+                    ON detail_beri_diet.no_rawat = reg_periksa.no_rawat
+                INNER JOIN pasien 
+                    ON reg_periksa.no_rkm_medis = pasien.no_rkm_medis
+                INNER JOIN diet 
+                    ON detail_beri_diet.kd_diet = diet.kd_diet
+                INNER JOIN kamar 
+                    ON detail_beri_diet.kd_kamar = kamar.kd_kamar
+                INNER JOIN bangsal 
+                    ON kamar.kd_bangsal = bangsal.kd_bangsal
+                INNER JOIN jam_diet_pasien 
+                    ON detail_beri_diet.waktu = jam_diet_pasien.waktu
+                WHERE  detail_beri_diet.no_rawat = ? 
+                ORDER BY 
+                    bangsal.nm_bangsal,
+                    diet.nama_diet; 
             `;
 
             const [rows] = await pool.query(query, [no_rawat]);
