@@ -191,7 +191,7 @@ module.exports = {
 
     getRiwayatSoapDokter: async (req, res) => {
         try {
-            const { no_rm } = req.body || {};
+            const { no_rm, limit } = req.body || {};
 
             // Validasi input
             if (!no_rm || no_rm.trim() === "") {
@@ -201,7 +201,7 @@ module.exports = {
                 });
             }
 
-            const data = await M_rawatJalan.riwayatSoapDokter(no_rm);
+            const data = await M_rawatJalan.riwayatSoapDokter(no_rm, parseInt(limit) );
 
             if (!data) {
                 return res.status(200).json({
@@ -212,7 +212,7 @@ module.exports = {
 
             return res.json({
                 success: true,
-                message: "Data Riwayat SOAP diambil",
+                message: "Data Riwayat SOAP Dokter diambil",
                 data
             });
 
@@ -228,7 +228,7 @@ module.exports = {
     },
     getRiwayatSoap: async (req, res) => {
         try {
-            const { no_rm } = req.body || {};
+            const { no_rm, limit } = req.body || {};
 
             // Validasi input
             if (!no_rm || no_rm.trim() === "") {
@@ -238,7 +238,7 @@ module.exports = {
                 });
             }
 
-            const data = await M_rawatJalan.allRiwayatSoap(no_rm);
+            const data = await M_rawatJalan.allRiwayatSoap(no_rm, parseInt(limit) );
 
             if (!data) {
                 return res.status(200).json({
@@ -249,7 +249,7 @@ module.exports = {
 
             return res.json({
                 success: true,
-                message: "Data Riwayat SOAP diambil",
+                message: "Data ALL Riwayat SOAP diambil",
                 data
             });
 

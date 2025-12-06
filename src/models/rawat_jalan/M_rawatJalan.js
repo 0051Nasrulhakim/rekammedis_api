@@ -2,7 +2,8 @@ const pool = require("../../config/db");
 
 module.exports = {
 
-    riwayatSoapDokter: async (no_rm) => {
+    riwayatSoapDokter: async (no_rm, limit) => {
+        // console.log(limit)
         try {
             if (!no_rm) {
                 throw new Error("no_rm is required");
@@ -23,8 +24,16 @@ module.exports = {
                         ralan.rtl,
                         ralan.instruksi,
                         ralan.evaluasi,
+                        ralan.suhu_tubuh,
+                        ralan.tensi,
+                        ralan.nadi,
+                        ralan.respirasi,
+                        ralan.tinggi,
+                        ralan.berat,
+                        ralan.spo2,
+                        ralan.gcs,
                         pt.nama,
-                        'Ralan' AS STATUS,
+                        'Ralan' AS status,
                         CASE 
                             WHEN penjab.png_jawab = 'BPJS' THEN
                                 CASE 
@@ -39,7 +48,7 @@ module.exports = {
                     INNER JOIN petugas pt ON ralan.nip = pt.nip
                     INNER JOIN dokter d ON ralan.nip = d.kd_dokter
                     LEFT JOIN bridging_sep ON bridging_sep.no_rawat = rp.no_rawat
-                    WHERE rp.no_rkm_medis = ? 
+                    WHERE rp.no_rkm_medis = ?
 
                     UNION ALL
 
@@ -55,15 +64,23 @@ module.exports = {
                         ranap.rtl,
                         ranap.instruksi,
                         ranap.evaluasi,
+                        ranap.suhu_tubuh,
+                        ranap.tensi,
+                        ranap.nadi,
+                        ranap.respirasi,
+                        ranap.tinggi,
+                        ranap.berat,
+                        ranap.spo2,
+                        ranap.gcs,
                         pt.nama,
-                        'Ranap' AS STATUS,
+                        'Ranap' AS status,
                         CASE 
                             WHEN penjab.png_jawab = 'BPJS' THEN
                                 CASE 
                                     WHEN bridging_sep.peserta LIKE '%PBI%' THEN 'BPJS - PBI'
                                     ELSE 'BPJS - Non PBI'
                                 END
-                            ELSE penjab.png_jawab
+                            ELSE penjab.png_jawab 
                         END AS jenis_peserta
                     FROM pemeriksaan_ranap ranap
                     INNER JOIN reg_periksa rp ON ranap.no_rawat = rp.no_rawat
@@ -74,10 +91,10 @@ module.exports = {
                     WHERE rp.no_rkm_medis = ? 
                 ) AS gabungan
                 ORDER BY tgl_perawatan DESC, jam_rawat DESC
-                LIMIT 15;
+                LIMIT ?;
             `;
 
-            const [rows] = await pool.query(query, [no_rm, no_rm]);
+            const [rows] = await pool.query(query, [no_rm, no_rm, limit]);
 
             // Kembalikan semua data
             return rows;
@@ -112,7 +129,7 @@ module.exports = {
         }
     },
 
-    allRiwayatSoap: async (no_rm) => {
+    allRiwayatSoap: async (no_rm, limit) => {
         try {
             if (!no_rm) {
                 throw new Error("no_rm is required");
@@ -133,6 +150,14 @@ module.exports = {
                         ralan.rtl,
                         ralan.instruksi,
                         ralan.evaluasi,
+                        ralan.suhu_tubuh,
+                        ralan.tensi,
+                        ralan.nadi,
+                        ralan.respirasi,
+                        ralan.tinggi,
+                        ralan.berat,
+                        ralan.spo2,
+                        ralan.gcs,
                         pt.nama,
                         'Ralan' AS status,
                         CASE 
@@ -165,6 +190,14 @@ module.exports = {
                         ranap.rtl,
                         ranap.instruksi,
                         ranap.evaluasi,
+                        ranap.suhu_tubuh,
+                        ranap.tensi,
+                        ranap.nadi,
+                        ranap.respirasi,
+                        ranap.tinggi,
+                        ranap.berat,
+                        ranap.spo2,
+                        ranap.gcs,
                         pt.nama,
                         'Ranap' AS status,
                         CASE 
@@ -183,10 +216,10 @@ module.exports = {
                     WHERE rp.no_rkm_medis = ? 
                 ) AS gabungan
                 ORDER BY tgl_perawatan DESC, jam_rawat DESC
-                LIMIT 15;
+                LIMIT ?;
             `;
 
-            const [rows] = await pool.query(query, [no_rm, no_rm]);
+            const [rows] = await pool.query(query, [no_rm, no_rm, limit]);
 
             // Kembalikan semua data
             return rows;
@@ -219,6 +252,7 @@ module.exports = {
             throw error; // diteruskan ke controller
         }
     },
+
     awalMedisIgd: async (no_rawat) => {
         try {
             if (!no_rawat) {

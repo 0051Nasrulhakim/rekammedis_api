@@ -15,10 +15,10 @@ const pool = mysql.createPool({
 (async () => {
     try {
         const conn = await pool.getConnection();
-        console.log("✅ MySQL Connected!");
+        console.log("✅ DB UTAMA Connected!");
         conn.release();
     } catch (err) {
-        console.error("❌ MySQL Connection Failed:", err.message);
+        console.error("❌ DB UTAMA Connection Failed:", err.message);
     }
 })();
 
